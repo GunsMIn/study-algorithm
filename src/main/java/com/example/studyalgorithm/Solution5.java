@@ -8,10 +8,11 @@ public class Solution5 {
 
         if (sqrt * sqrt == n) {
             // x의 제곱이 n과 같다면, x는 n의 제곱근이므로 (x+1)의 제곱을 반환
-            return (sqrt + 1) * (sqrt + 1);
+            answer = (sqrt + 1) * (sqrt + 1);
         } else {
             // x의 제곱이 n과 다르면, n은 어떤 수의 제곱이 아님
-            return -1;
+            answer = -1;
         }
+        return answer;
     }
 }
