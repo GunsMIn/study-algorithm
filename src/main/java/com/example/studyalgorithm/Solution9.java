@@ -6,7 +6,7 @@ public class Solution9 {
     public boolean solution(String[] phone_book) {
         // 전화번호부를 사전순으로 정렬
         Arrays.sort(phone_book);
-
+//
         // 인접한 번호들끼리 접두사인지 확인
         for (int i = 0; i < phone_book.length - 1; i++) {
             // 앞 번호가 뒤 번호의 접두사인지 확인
