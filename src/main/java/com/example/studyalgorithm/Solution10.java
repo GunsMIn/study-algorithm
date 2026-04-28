@@ -15,7 +15,7 @@ public class Solution10 {
             map.put(type,map.getOrDefault(type,0)+1);
         }
 
-
+//
         for(int count :map.values()){
             answer *= count + 1 ;
         }
